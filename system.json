@@ -1,0 +1,34 @@
+{
+  "id": "rmu",
+  "title": "Rolemaster Unified Unnoficial",
+  "description": "The RMUsystem for FoundryVTT!",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "authors": [{
+    "name": "Alessandro 'Khamûl' Dias"
+  }],
+  "esmodules": [],
+  "styles": [],
+  "scripts": [],
+  "packs": [],
+  "packFolders": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "media": [],
+  "socket": true,
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health"
+}

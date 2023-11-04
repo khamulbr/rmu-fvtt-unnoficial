@@ -1,0 +1,201 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "templates": {
+      "background": {
+        "race": "",
+        "culture": "",
+        "profession": "",
+        "realm": ""
+      },
+      "appearance": {
+        "gender": "",
+        "age": 0,
+        "height": 0,
+        "weight": 0,
+        "build": "",
+        "skin": "",
+        "hair": "",
+        "eyes": ""
+      },
+      "stats": {
+        "agility": {
+          "shortname": "Ag",
+          "potential": 0,
+          "temp": 0,
+          "basic_bonus": 0,
+          "racial_bonus": 0,
+          "special_bonus": 0,
+          "stat_bonus": 0
+        },
+        "constitution": {
+          "shortname": "Co",
+          "potential": 0,
+          "temp": 0,
+          "basic_bonus": 0,
+          "racial_bonus": 0,
+          "special_bonus": 0,
+          "stat_bonus": 0
+        },
+        "empathy": {
+          "shortname": "Em",
+          "potential": 0,
+          "temp": 0,
+          "basic_bonus": 0,
+          "racial_bonus": 0,
+          "special_bonus": 0,
+          "stat_bonus": 0
+        },
+        "intuition": {
+          "shortname": "In",
+          "potential": 0,
+          "temp": 0,
+          "basic_bonus": 0,
+          "racial_bonus": 0,
+          "special_bonus": 0,
+          "stat_bonus": 0
+        },
+        "memory": {
+          "shortname": "Me",
+          "potential": 0,
+          "temp": 0,
+          "basic_bonus": 0,
+          "racial_bonus": 0,
+          "special_bonus": 0,
+          "stat_bonus": 0
+        },
+        "presence": {
+          "shortname": "Pr",
+          "potential": 0,
+          "temp": 0,
+          "basic_bonus": 0,
+          "racial_bonus": 0,
+          "special_bonus": 0,
+          "stat_bonus": 0
+        },
+        "quickness": {
+          "shortname": "Qu",
+          "potential": 0,
+          "temp": 0,
+          "basic_bonus": 0,
+          "racial_bonus": 0,
+          "special_bonus": 0,
+          "stat_bonus": 0
+        },
+        "reasoning": {
+          "shortname": "Re",
+          "potential": 0,
+          "temp": 0,
+          "basic_bonus": 0,
+          "racial_bonus": 0,
+          "special_bonus": 0,
+          "stat_bonus": 0
+        },
+        "self_discipline": {
+          "shortname": "SD",
+          "potential": 0,
+          "temp": 0,
+          "basic_bonus": 0,
+          "racial_bonus": 0,
+          "special_bonus": 0,
+          "stat_bonus": 0
+        },
+        "strength": {
+          "shortname": "St",
+          "potential": 0,
+          "temp": 0,
+          "basic_bonus": 0,
+          "racial_bonus": 0,
+          "special_bonus": 0,
+          "stat_bonus": 0
+        }
+      },
+      "resistance_rolls": {
+        "channeling": {
+          "stat": "In",
+          "value": 0,
+          "race_mod": 0,
+          "special_bonus": 0,
+          "total": 0
+        },
+        "essence": {
+          "stat": "Em",
+          "value": 0,
+          "race_mod": 0,
+          "special_bonus": 0,
+          "total": 0
+        },
+        "mentalism": {
+          "stat": "Pr",
+          "value": 0,
+          "race_mod": 0,
+          "special_bonus": 0,
+          "total": 0
+        },
+        "physical": {
+          "stat": "Co",
+          "value": 0,
+          "race_mod": 0,
+          "special_bonus": 0,
+          "total": 0
+        },
+        "fear": {
+          "stat": "SD",
+          "value": 0,
+          "race_mod": 0,
+          "special_bonus": 0,
+          "total": 0
+        }
+      },
+      "defense": {
+        "quickness_db": 0,
+        "passive_dodge": 0,
+        "partial_dodge": 0,
+        "full_dodge": 0,
+        "without_shield": 0,
+        "other_db": 0,
+        "passive_block": 0,
+        "partial_block": 0,
+        "full_block": 0,
+        "with_shield": 0
+      }
+    },
+    "character": {
+      "templates": ["background","appearance","stats","resistance_rolls","defense"],
+      "attributes": {
+        "level": {
+          "value": 1
+        },
+        "hits": {
+          "current": 1,
+          "max": 1
+        },
+        "power_points": {
+          "current": 1,
+          "max": 1
+        },
+        "experience_points": {
+          "value": 0
+        }
+      }
+    },
+    "npc": {
+      "templates": ["background","appearance","stats","resistance_rolls","defense"],
+      "attributes": {
+        "level": {
+          "value": 1
+        },
+        "hits": {
+          "current": 1,
+          "max": 1
+        },
+        "power_points": {
+          "current": 1,
+          "max": 1
+        }    
+      }
+    }
+  },
+  "Item": {
+  }
+}
