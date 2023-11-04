@@ -2,7 +2,7 @@
   "id": "rmu",
   "title": "Rolemaster Unified Unnoficial",
   "description": "The RMUsystem for FoundryVTT!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
